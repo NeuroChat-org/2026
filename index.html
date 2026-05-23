@@ -240,6 +240,24 @@
             color: var(--text);
         }
         
+        .schedule-content strong {
+            color: var(--text);
+        }
+        
+        .schedule-list {
+            margin: 8px 0 0 0;
+            padding-left: 18px;
+        }
+        
+        .schedule-list li {
+            margin: 6px 0;
+            color: var(--text-muted);
+        }
+        
+        .schedule-list li strong {
+            color: var(--text);
+        }
+        
         .speaker-preview {
             display: flex;
             align-items: center;
@@ -340,12 +358,25 @@
             <div class="info-grid">
                 <div class="card">
                     <h3 style="color: var(--accent); margin-bottom: 10px;">线下会场</h3>
-                    <p><strong>杭州湘湖院士岛 / 科学岛</strong></p>
+                    <p><strong><a href="https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E6%B9%98%E6%B9%96%E7%A7%91%E5%AD%A6%E5%B2%9B&amp;city=%E6%9D%AD%E5%B7%9E&amp;src=neurochat2026&amp;callnative=0" target="_blank" rel="noopener noreferrer">杭州湘湖科学岛</a></strong></p>
                     <p style="color: var(--text-muted);">浙江省杭州市萧山区湘湖</p>
                 </div>
                 <div class="card">
                     <h3 style="color: var(--accent); margin-bottom: 10px;">线上直播</h3>
-                    <p>无法线下参会的学者可通过线上直播参与会议</p>
+                    <div class="qr-section" style="justify-content: center; gap: 20px;">
+                        <div class="qr-item">
+                            <a href="https://meeting.tencent.com/l/1KrV0vqzH22W" target="_blank" rel="noopener noreferrer">
+                                <img src="img/QR_Code/tencent_stream_QR.png" alt="腾讯会议直播二维码">
+                            </a>
+                            <p><a href="https://meeting.tencent.com/l/1KrV0vqzH22W" target="_blank" rel="noopener noreferrer">腾讯会议直播</a></p>
+                        </div>
+                        <div class="qr-item">
+                            <a href="https://eyhxg.xetslk.com/sl/l0weJ" target="_blank" rel="noopener noreferrer">
+                                <img src="img/QR_Code/PsyBrain_QR.png" alt="心仪脑直播二维码">
+                            </a>
+                            <p><a href="https://eyhxg.xetslk.com/sl/l0weJ" target="_blank" rel="noopener noreferrer">心仪脑直播</a></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -372,17 +403,28 @@
             <h2>线上参与方式</h2>
             <div class="meeting-info">
                 <p>请提前下载安装 <strong>腾讯会议</strong> 软件</p>
-                <a href="会议链接待定">点击进入会议</a>
-                <p>会议号：<span class="placeholder">[会议号待定]</span></p>
+                <a href="https://meeting.tencent.com/dm/iXtUeHrcSzOn?meeting_open_type=1&amp;source=1" target="_blank" rel="noopener noreferrer">点击进入腾讯会议</a>
+                <p>会议号：190-377-563</p>
+                <p>会议密码：048860</p>
             </div>
             <div class="qr-section">
                 <div class="qr-item">
-                    <img src="img/QR_Code/tencent_QR.png" alt="腾讯会议二维码">
-                    <p>腾讯会议</p>
+                    <a href="https://meeting.tencent.com/dm/iXtUeHrcSzOn?meeting_open_type=1&amp;source=1" target="_blank" rel="noopener noreferrer">
+                        <img src="img/QR_Code/tencent_QR.png" alt="腾讯会议二维码">
+                    </a>
+                    <p><a href="https://meeting.tencent.com/dm/iXtUeHrcSzOn?meeting_open_type=1&amp;source=1" target="_blank" rel="noopener noreferrer">腾讯会议</a></p>
                 </div>
                 <div class="qr-item">
-                    <img src="img/QR_Code/PsyBrain_QR.png" alt="心仪脑直播二维码">
-                    <p>心仪脑直播</p>
+                    <a href="https://meeting.tencent.com/l/1KrV0vqzH22W" target="_blank" rel="noopener noreferrer">
+                        <img src="img/QR_Code/tencent_stream_QR.png" alt="腾讯会议直播二维码">
+                    </a>
+                    <p><a href="https://meeting.tencent.com/l/1KrV0vqzH22W" target="_blank" rel="noopener noreferrer">腾讯会议直播</a></p>
+                </div>
+                <div class="qr-item">
+                    <a href="https://eyhxg.xetslk.com/sl/l0weJ" target="_blank" rel="noopener noreferrer">
+                        <img src="img/QR_Code/PsyBrain_QR.png" alt="心仪脑直播二维码">
+                    </a>
+                    <p><a href="https://eyhxg.xetslk.com/sl/l0weJ" target="_blank" rel="noopener noreferrer">心仪脑直播</a></p>
                 </div>
             </div>
         </section>
@@ -391,8 +433,10 @@
             <h2>公众号</h2>
             <div class="qr-section">
                 <div class="qr-item">
-                    <img src="img/QR_Code/NeuroChat_QR.png" alt="公众号二维码">
-                    <p> neurochat神聊公众号</p>
+                    <a href="http://weixin.qq.com/r/mp/hhwhOdXEI4hcrZFa90mU" target="_blank" rel="noopener noreferrer">
+                        <img src="img/QR_Code/NeuroChat_QR.png" alt="公众号二维码">
+                    </a>
+                    <p><a href="http://weixin.qq.com/r/mp/hhwhOdXEI4hcrZFa90mU" target="_blank" rel="noopener noreferrer">neurochat神聊公众号</a></p>
                 </div>
             </div>
         </section>
@@ -400,10 +444,10 @@
         <section>
             <h2>演讲者</h2>
             <div class="speaker-preview">
-                <img src="img/people/speakers/placeholder.jpeg" alt="Keynote演讲人">
+                <img src="img/people/speakers/placeholder.jpeg" alt="Konrad Kording">
                 <div class="speaker-info">
-                    <h4>Keynote 演讲人</h4>
-                    <p class="placeholder">[信息待定]</p>
+                    <h4>Konrad Kording</h4>
+                    <p>Keynote 演讲人 · 宾夕法尼亚大学</p>
                     <p class="topic placeholder">报告题目：[题目待定]</p>
                 </div>
             </div>
@@ -416,44 +460,43 @@
             <div class="schedule-day">
                 <h4>6月6日 (周六)</h4>
                 <div class="schedule-item">
-                    <span class="schedule-time">09:00-09:10</span>
-                    <span class="schedule-content">开场致辞</span>
-                </div>
-                <div class="schedule-item">
-                    <span class="schedule-time">09:10-10:00</span>
-                    <span class="schedule-content">Keynote 演讲 <span class="placeholder">[演讲人待定]</span></span>
-                </div>
-                <div class="schedule-item">
-                    <span class="schedule-time">10:00-12:00</span>
-                    <span class="schedule-content">Talks 报告 <span class="placeholder">[演讲人待定]</span></span>
-                </div>
-                <div class="schedule-item">
-                    <span class="schedule-time">12:00-14:00</span>
-                    <span class="schedule-content">午歇</span>
-                </div>
-                <div class="schedule-item">
-                    <span class="schedule-time">14:00-17:00</span>
-                    <span class="schedule-content">Talks 报告 <span class="placeholder">[演讲人待定]</span></span>
-                </div>
-            </div>
-
-            <div class="schedule-day">
-                <h4>6月7日 (周日)</h4>
-                <div class="schedule-item">
                     <span class="schedule-time">09:00-12:00</span>
-                    <span class="schedule-content">Talks 报告 <span class="placeholder">[演讲人待定]</span></span>
+                    <div class="schedule-content">
+                        <strong>Talks 报告</strong>
+                        <ul class="schedule-list">
+                            <li><strong>陈睿东</strong>（麻省理工学院）：从神经几何角度理解证据整合</li>
+                            <li><strong>杜景南</strong>（圣母大学心理系）：个体水平人脑网络的组织及功能</li>
+                            <li><strong>杨泽天</strong>（纽约大学）：Neural mechanisms for flexible vocal motor control</li>
+                            <li><strong>吕其鸿</strong>（香港城市大学）：Episodic memory supports the acquisition of structured task representations</li>
+                            <li><strong>毕文彦</strong>（耶鲁大学）：基于概率编程与深度神经网络的方法揭示大脑的视觉物体表征</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="schedule-item">
-                    <span class="schedule-time">12:00-14:00</span>
-                    <span class="schedule-content">午歇</span>
+                    <span class="schedule-time">12:00-13:30</span>
+                    <div class="schedule-content">午歇</div>
                 </div>
                 <div class="schedule-item">
-                    <span class="schedule-time">14:00-16:30</span>
-                    <span class="schedule-content">Talks 报告 & 人才招募 <span class="placeholder">[演讲人待定]</span></span>
+                    <span class="schedule-time">13:30-16:00</span>
+                    <div class="schedule-content">
+                        <strong>Talks 报告</strong>
+                        <ul class="schedule-list">
+                            <li><strong>任建勋</strong>（昌平实验室）：帕金森病脑网络与神经调控新靶点</li>
+                            <li><strong>王超名</strong>（广东省智能科学与技术研究院）：连接组驱动的可微分数字孪生脑</li>
+                            <li><strong>谢超</strong>（清华大学心理与认知科学系）：跨发育阶段精神共病的层级神经认知模型</li>
+                            <li><strong>祝建桥</strong>（香港大学）：Using Reinforcement Learning to Train LLMs to Explain Human Decisions</li>
+                            <li><strong>Richard Gao</strong>（法兰克福大学）：Discovering activity-constrained mechanistic models of neural dynamics</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="schedule-item">
-                    <span class="schedule-time">16:30-17:00</span>
-                    <span class="schedule-content">活动结束</span>
+                    <span class="schedule-time">16:00-17:00</span>
+                    <div class="schedule-content">
+                        <strong>Keynote 特邀嘉宾</strong>
+                        <ul class="schedule-list">
+                            <li><strong>Konrad Kording</strong>（宾夕法尼亚大学）：<span class="placeholder">[报告题目待定]</span></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
